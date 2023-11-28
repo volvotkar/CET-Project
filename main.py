@@ -16,10 +16,44 @@ Constants:
 room = {
     "chairs": 97,
     "tables": 45,
+    "podium": 1,
     "projector": 1,
     "blackboard": 1,
-    "server-box": 1,
-    "box-lights": 20,
-    "blackboard-lights": 3,
+    "serverbox": 1,
+    "boxlights": 20,
+    "blackboardlights": 3,
     "humans": 110,
+}
+
+# Furniture details below:
+# Everything in meters please!
+chair = {
+    "length": 10,
+    "breadth": 10,
+    "height": 10,
+}
+table = {
+    "length": 10,
+    "breadth": 10,
+    "height": 10,
+}
+podium = {
+    "length": 10,
+    "breadth": 10,
+    "height": 10,
+}
+projector = {
+    "length": 10,
+    "breadth": 10,
+    "height": 10,
+}
+blackboard = {
+    "length": 10,
+    "breadth": 10,
+    "height": 10,
+}
+serverbox = {
+    "length": 10,
+    "breadth": 10,
+    "height": 10,
 }
