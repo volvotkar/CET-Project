@@ -11,6 +11,8 @@ Constants:
 (try to make it a dictionary)
 """
 
+# Room dictionary - contains the CONSTANTS of each room
+# PLEASE CORRECT THE BELOW DETAILS, I'VE ASSUMED VALUES
 room = {
     "chairs": 97,
     "tables": 45,
