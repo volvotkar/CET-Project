@@ -11,4 +11,13 @@ Constants:
 (try to make it a dictionary)
 """
 
-room = {"chairs": 97}
+room = {
+    "chairs": 97,
+    "tables": 45,
+    "projector": 1,
+    "blackboard": 1,
+    "server-box": 1,
+    "box-lights": 20,
+    "blackboard-lights": 3,
+    "humans": 110,
+}
