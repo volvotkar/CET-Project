@@ -62,6 +62,7 @@ class Room:
     humans = 110
 
 
+# Room selection function
 def room_selection(time):
     # Time of day check
     if time == 1:
@@ -89,6 +90,7 @@ def room_selection(time):
         room_selection(time)
 
 
+# Initial user prompt function
 def user_prompt():
     print(f"Please enter the time of day")
     time = int(
